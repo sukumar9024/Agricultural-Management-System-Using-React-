@@ -1,0 +1,39 @@
+.image{
+    width:200px;
+    height:200px;
+    padding-bottom: 0.5%;
+    border-radius: 6%;
+    
+}
+.image-holder{
+    display: flex;
+    justify-content: center;
+}
+
+.cards{
+    border-radius: 6%;
+    background-color: white;
+    padding: 1%;
+    border: 2px solid black;
+}
+.product-name{
+    font-size: 1.6em;
+    margin:12px;
+    margin-left: 0px;
+    text-align: center;
+    
+}
+
+.price{
+    text-align: left;
+    padding-left: 0px;
+    font-size: 1.2em;
+    font-weight: bold
+    
+}
+.seller{
+    margin-top: 1em;
+    font-size: 1em;
+    text-align:right;
+    margin-bottom: 0px;
+}

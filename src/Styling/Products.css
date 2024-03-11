@@ -1,0 +1,14 @@
+body{
+    display: flex;
+}
+.cards{
+    width: 300px;
+    margin:1%;
+   
+}
+ 
+.cards-holder{
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: center
+}

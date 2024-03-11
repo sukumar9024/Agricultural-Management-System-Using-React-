@@ -1,0 +1,66 @@
+.heading{
+    margin-top: 30px;
+    text-align: center;
+    font-size: 1.5em;
+    margin-bottom: 50px;
+}
+.content-box{
+    margin-top: 5%;
+    display: inline-block;
+    width:100%;
+}
+.image{
+    display: inline;
+}
+.image-icon img{
+    width:250px;
+    height:250px;
+    /* display: inline; */
+    float: left;
+    margin-right: 30px;
+    margin-bottom:100px;
+}
+.image-icon{
+    width:300px;
+    height: 300px;
+    margin-bottom: 100px;
+    display:inline;
+}
+.content-box label{
+    margin: 5px;
+}
+.content-box input{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    width:90%
+}
+.set-inputs{
+    display: inline-block;
+    width: 30%;
+    height: 100px;
+}
+.lefti{
+    float:left;
+    margin-right: 10%;
+}
+.fulli{
+    float: left;
+    width:100%;
+    
+}
+.submit{
+    justify-content:center;
+    display:flex;
+}
+.submit button{
+    font-size:16px;
+    padding:10px;
+    border-radius: 5px;
+    
+    
+}
+input{
+    height:30px;
+    border-radius:30px;
+    padding:5px;
+}
