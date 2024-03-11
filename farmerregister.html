@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grabit - Farmer Registration</title>
+    <link rel="stylesheet" href="farmerregister.css">
+</head>
+<body>
+    <div class="tool-bar">
+        <div class="logo">
+            <h1 style="color: white;">Grabit</h1>
+            <div class="top-menu">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="farmers_market.html">Market</a></li>
+                    <li><a href="my_account.html">Account</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="heading">
+        <h2>FARMER REGISTRATION PANEL</h2>
+    </div>
+    <div class="content-box">
+        <div class="image-icon">
+            <img src="./assets/farmer_register_image.jpg" alt="Farmer logo">
+        </div>
+        <form action="farmer_register.php" method="POST">
+            <div class="set-inputs">
+                <label for="farmer-name">Farmer Name</label><br>
+                <input type="text" id="username" name="username" placeholder="Username" required><br>
+                <!-- <?php if(isset($username_error)) echo "<p style='color:red;'>$username_error</p>"; ?> -->
+            </div>
+            <div class="set-inputs">
+                <label for="Email">Email- ID</label><br>
+                <input type="email" id="email" name="email" placeholder="Email" required><br>
+            </div>
+            <div class="set-inputs">
+                <label for="password">Password</label><br>
+                <input type="password" id="password" name="password" placeholder="Password" required><br>
+            </div>
+            <div class="set-inputs">
+                <label for="cpassword">Confirm Password</label><br>
+                <input type="password" id="cpassword" name="cpassword" placeholder="Confirm Password" required><br>
+            </div>
+            <div class="set-inputs">
+                <label for="address">Address</label><br>
+                <input type="text" id="address" name="address" placeholder="Address" required><br>
+            </div>
+            <div class="set-inputs">
+                <label for="state">State</label><br>
+                <input type="text" id="state" name="state" placeholder="State" required><br>
+            </div>
+            <div class="set-inputs">
+                <label for="city">City</label><br>
+                <input type="text" id="city" name="city" placeholder="City" required><br>
+            </div>
+            <div class="set-inputs">
+                <label for="Mobile">City</label><br>
+                <input type="number" id="mobile" name="mobile" placeholder="Mobile" required><br>
+            </div>
+            <div class="set-inputs">
+                <label for="pcode">Pin Code</label><br>
+                <input type="text" id="pincode" name="pincode" placeholder="Pin Code" required><br>
+            </div>
+            <div class="submit">
+                <button type="submit">Register</button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
