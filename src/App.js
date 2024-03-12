@@ -6,6 +6,9 @@ import Customerlogin from "./Components/Customer_login.jsx";
 import Customerregister from "./Components/Customerregister.jsx";
 import Farmerlogin from "./Components/farmer_login.jsx";
 import Farmerregister from "./Components/farmerregister.jsx";
+import Searcher from "./Components/searcher.js";
+import Products from "./Components/Products.js";
+
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 function App() {
@@ -22,6 +25,7 @@ function App() {
         <Route exact path="/Customerregister" element={<Customerregister/>}/>
         <Route exact path="/farmerlogin" element={< Farmerlogin/>} />
         <Route exact path="/farmerregister" element={<Farmerregister />} />
+        < Route exact path="/products"element={<div><Searcher/><Products/></div>}/>
       </Routes>
         
       

@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
-import './searcher.css';
-import cities,{ states } from './cities';
+import '../Styling/searcher.css';
+import cities,{ states } from "../Components/cities";
 
 function optionbuilder(x) {
   return <option value={x}>{x}</option>;

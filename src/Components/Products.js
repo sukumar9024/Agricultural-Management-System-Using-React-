@@ -1,7 +1,7 @@
 import React from 'react';
-import contents from './product-contents';
-import Card from './Card';
-import ".//Styling"
+import contents from '../Components/product-contents.js';
+import Card from '../Components/Card.js';
+import "../Styling/Products.css";
 
 function helper(props){
     return (<Card src={props.src}
