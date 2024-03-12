@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 body{
-    background-image: url(./assets/background-login.jpeg);
+    background-image: url(./src/assets/background-login.jpeg);
     background-position: center;
     background-repeat: no-repeat;
 }
