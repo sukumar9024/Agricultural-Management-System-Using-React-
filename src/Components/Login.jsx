@@ -1,10 +1,16 @@
 import React from "react";
 import "../Styling/Login.css"
 import {Link} from "react-router-dom";
+import image from "../assets/background-login.jpeg";
 function Login(){
+    let myStyle={
+        backgroundImage: `url(${image})`,
+        backgroundPosition: "center"
+      
+    }
     return(
         
-        <div class="login-cointainer">
+        <div class="login-cointainer" style={myStyle}>
         <div class="customer">
             <div class="customer-heading"><h2>Customer</h2></div>
             <div class="customer-logo"><span class="material-symbols-outlined">
