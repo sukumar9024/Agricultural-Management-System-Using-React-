@@ -2,6 +2,8 @@ import React from "react";
 import "../Styling/Login.css"
 import {Link} from "react-router-dom";
 import image from "../assets/background-login.jpeg";
+import customer from "../assets/customer.png";
+import farmer from "../assets/farmer.png";
 function Login(){
     let myStyle={
         backgroundImage: `url(${image})`,
@@ -14,7 +16,7 @@ function Login(){
         <div class="customer">
             <div class="customer-heading"><h2>Customer</h2></div>
             <div class="customer-logo"><span class="material-symbols-outlined">
-                person_add
+                <img src={customer} style={{height: 50}}/>
                 </span></div>
             <div class="customer-para"><p>Are you willing to purchase products from farmers? </p></div>
             <div class="login-line">login/register as  Customer</div>
@@ -24,7 +26,7 @@ function Login(){
         <div class="farmer">
             <div class="farmer-heading"><h2>Farmer</h2></div>
             <div class="farmer-logo"><span class="material-symbols-outlined">
-                grocery
+                <img src={farmer} style={{height: 50}}/>
                 </span></div>
             <div class="farmer-para"><p>Online Market where you can sell agri products. </p></div>
             <div class="login-line">login/register as  Farmer</div>
