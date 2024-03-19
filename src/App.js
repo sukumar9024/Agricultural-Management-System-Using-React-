@@ -25,7 +25,6 @@ function App() {
         <Route exact path="/farmerlogin" element={< Farmerlogin/>} />
         <Route exact path="/farmerregister" element={<Farmerregister />} />
         <Route exact path="/products" element={<div> <Searcher/><Products/></div>} />
-          
       </Routes>
         
       
