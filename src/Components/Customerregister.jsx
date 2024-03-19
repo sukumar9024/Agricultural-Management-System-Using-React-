@@ -1,10 +1,11 @@
 import React from "react";
 import "../Styling/farmerregister.css";
 import {Link} from "react-router-dom";
+import image from "../assets/custImag.jpg";
 function customerregister(){
         return(<div class="reg_content-box">
         <div class="reg_image-icon">
-            <img src="./assets/customer register image.jpg" alt="Farmer logo"/>
+            <img src={image}  alt="Farmer logo"/>
         </div>
         <form action="customer_register.php" method="POST">
             <div class="reg_set-inputs">

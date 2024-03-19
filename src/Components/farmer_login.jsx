@@ -1,5 +1,6 @@
 import React from "react";
 import "../Styling/customer_login.css"
+import image from "../assets/farmImg.jpg";
 function farmerlogin(){
         return(<div> 
             <div class="heading">
@@ -7,7 +8,7 @@ function farmerlogin(){
     </div>
     <div class="content-box">
         <div class="image-icon">
-            <img src="./assets/farmer register image.jpg" alt="Customer logo"/>
+            <img src={image} alt="Farmer logo"/>
         </div>
         <form class="login-form" action="customer_login.php" method="post">
             <div class="set-inputs">
