@@ -10,6 +10,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Searcher from "./Components/searcher.js";
 import Products from "./Components/Products.js";
 import Customer from "./Components/Customer.jsx";
+import CustomerAddProduct from "./Components/customerAddProduct.jsx";
 
 function App() {
 
@@ -26,6 +27,7 @@ function App() {
         <Route exact path="/farmerregister" element={<div><NavBar/><Farmerregister /></div>} />
         <Route exact path="/products" element={<div><NavBar/> <Searcher/><Products/></div>} />
         <Route exact path="/customer" element={<Customer/>} />
+        <Route exact path="/customer/addProduct" element={<CustomerAddProduct/>} />
       </Routes>
         
       

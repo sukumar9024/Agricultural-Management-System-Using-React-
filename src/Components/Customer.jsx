@@ -34,8 +34,8 @@ function Customer() {
                     <span>Ramana</span>
                 </div>
                 <div className="top-menu">
-                <Link to="/" ><button>Add Product</button></Link>
-                    <Link to="/products"> <button>Logout</button>  </Link>
+                <Link to="./addProduct" ><button>Add Product</button></Link>
+                    <Link to="/"> <button>Logout</button>  </Link>
                 </div>
             </div>
         </div>
