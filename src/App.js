@@ -9,22 +9,23 @@ import Farmerregister from "./Components/farmerregister.jsx";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Searcher from "./Components/searcher.js";
 import Products from "./Components/Products.js";
+import Customer from "./Components/Customer.jsx";
 
 function App() {
 
   return (
 <Router>
     <div>
-      <NavBar/>
     
       <Routes>
-        <Route exact path="/" element={<Home />} />
-        <Route exact path="/Login" element={<Login />} />   
-        <Route exact path="/Customerlogin" element={<Customerlogin />} />
-        <Route exact path="/Customerregister" element={<Customerregister/>}/>
-        <Route exact path="/farmerlogin" element={< Farmerlogin/>} />
-        <Route exact path="/farmerregister" element={<Farmerregister />} />
-        <Route exact path="/products" element={<div> <Searcher/><Products/></div>} />
+        <Route exact path="/" element={<div><NavBar/><Home /></div>} />
+        <Route exact path="/Login" element={<div><NavBar/><Login /></div>} />   
+        <Route exact path="/Customerlogin" element={<div><NavBar/><Customerlogin /></div>} />
+        <Route exact path="/Customerregister" element={<div><NavBar/><Customerregister/></div>}/>
+        <Route exact path="/farmerlogin" element={<div><NavBar/>< Farmerlogin/></div>} />
+        <Route exact path="/farmerregister" element={<div><NavBar/><Farmerregister /></div>} />
+        <Route exact path="/products" element={<div><NavBar/> <Searcher/><Products/></div>} />
+        <Route exact path="/customer" element={<Customer/>} />
       </Routes>
         
       

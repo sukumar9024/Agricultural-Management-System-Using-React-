@@ -32,15 +32,15 @@ body{
 .tag-line{
     text-align: 200;
 }
-.home_button button{
-    padding:2px;
+#get-started{
+    padding:4px;
     margin-top: 20px;
     border-radius:5%;
     background-color: black;
     color: white;
-    height: 25px;
-    width:100px
+    height: 30px;
+    width:120px;
 }
-.home_button button:hover{
-    color: rgb(20, 208, 145);
+#get-started:hover{
+    background-color: rgb(20, 208, 145);
 }
