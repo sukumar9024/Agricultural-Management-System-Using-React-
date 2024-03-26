@@ -69,7 +69,7 @@ function CustomerAddProduct() {
                     </div>
                   </div>
                   <div className="form-group row">
-                    <div className="col-md-6 offset-md-4">
+                    <div className="col-md-6 offset-md-4 insertButton">
                       <button type="submit" className="btn btn-primary" name="insert_pro">
                         INSERT
                       </button>

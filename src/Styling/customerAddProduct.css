@@ -51,13 +51,23 @@
   margin-top: 5px;
   margin-bottom: 5px;
 }
+.col-md-6 input{
+  margin-left: 5%;
+}
+.insertButton{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
 .btn-primary {
+  padding: 5px 10px;
+  border-radius: 5px;
   background-color: #007bff;
   border-color: #007bff;
 }
 
 .btn-primary:hover {
-  background-color: #0056b3;
-  border-color: #0056b3;
+  background-color: #00b339;
+  border-color: #00b339;
 }
