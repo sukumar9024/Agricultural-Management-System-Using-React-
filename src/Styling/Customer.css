@@ -1,0 +1,16 @@
+.left-corner{
+    display:flex;
+    gap: 10px;
+}
+.left-corner span{
+    align-self: flex-end;
+}
+.top-menu button{
+    background-color: deepskyblue;
+    padding: 5px;
+    border-radius: 5px;
+}
+.top-menu button:hover{
+    background-color: aquamarine;
+    color: white;
+}
