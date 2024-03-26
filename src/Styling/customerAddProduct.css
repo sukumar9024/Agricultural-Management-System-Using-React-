@@ -57,13 +57,13 @@
 .insertButton{
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-around;
 }
 
 .btn-primary {
   padding: 5px 10px;
   border-radius: 5px;
-  background-color: #007bff;
+  background-color: green;
   border-color: #007bff;
 }
 

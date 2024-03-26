@@ -71,7 +71,10 @@ function CustomerAddProduct() {
                   <div className="form-group row">
                     <div className="col-md-6 offset-md-4 insertButton">
                       <button type="submit" className="btn btn-primary" name="insert_pro">
-                        INSERT
+                        Insert
+                      </button>
+                      <button type="button" className="btn btn-primary"style={{background:"red"}}>
+                        Cancel
                       </button>
                     </div>
                   </div>
