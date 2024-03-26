@@ -1,5 +1,6 @@
 import React from "react";
 import "../Styling/customer_login.css";
+import customerBuy from "../assets/customerBuy.jpg"
 function Customerlogin(){
         return(<div> 
             <div className="heading">
@@ -7,7 +8,7 @@ function Customerlogin(){
     </div>
     <div className="content-box">
         <div className="image-icon">
-            <img src="./assets/customer register image.jpg" alt="Customer logo"/>
+            <img src={customerBuy} alt="Customer logo"/>
         </div>
         <form className="login-form" action="#" method="post">
             <div className="set-inputs">
