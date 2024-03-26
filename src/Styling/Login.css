@@ -29,6 +29,11 @@
     background-color: rgb(15, 143, 234);
     color: white;
 }
+
+.login_button button:active{
+    box-shadow: 0 2px #3d3b3b;
+    transform: translateY(2px);
+}
 .login-line{
     font-size: medium;
     font-weight: 600;
