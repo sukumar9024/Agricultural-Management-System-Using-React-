@@ -37,3 +37,7 @@
     text-align:right;
     margin-bottom: 0px;
 }
+.AddToCart{
+    display: contents;
+    justify-content: space-between;
+}
