@@ -41,7 +41,7 @@ body{
   flex-direction: row;
   justify-content: flex-end;
   align-items: center;
-  gap: 5px;
+  gap: 15%;
 }
 .top-menu li:hover{
   color: black;

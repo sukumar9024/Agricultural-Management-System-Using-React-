@@ -24,7 +24,7 @@
 }
 .login_button button{
     padding: 2px;
-    border-radius: 5%;
+    border-radius: 10px;
     border: white;
     background-color: rgb(15, 143, 234);
     color: white;
