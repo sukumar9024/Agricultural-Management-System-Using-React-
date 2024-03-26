@@ -8,7 +8,10 @@ function Card(props){
                 <h4 className="seller"> {props.seller}</h4>
                 <h3 className="product-name">{props.pname}</h3>
                 <p className="price">Rs.{props.price}</p>
-                <p className="price">Rating  :  {props.rating}</p>
+                <div className="AddToCart">
+                    <p className="price">Rating  :  {props.rating}</p>
+                    <button> Add to Cart</button>
+                </div>
             </div>
         );
 }
