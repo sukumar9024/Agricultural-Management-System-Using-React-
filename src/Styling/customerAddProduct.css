@@ -1,29 +1,63 @@
-/* customerAddProduct.css */
+/* CustomerAddProduct.css */
 
-.container {
-    margin-top: 50px;
-  }
-  
-  .card-header {
-    background-color: #007bff;
-    color: #fff;
-  }
-  
-  .card {
-    margin-bottom: 20px;
-  }
-  
-  .form-group {
-    margin-bottom: 20px;
-  }
-  
-  .btn-primary {
-    background-color: #007bff;
-    border-color: #007bff;
-  }
-  
-  .btn-primary:hover {
-    background-color: #0056b3;
-    border-color: #0056b3;
-  }
-  
+.customer-add-product-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.customer-add-product-inner {
+  width: 80%;
+  max-width: 600px;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.customer-add-product-card-header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.form-group.row {
+  margin-bottom: 15px;
+}
+
+.col-md-4.col-form-label.text-md-right.text-center.font-weight-bolder {
+  text-align: left; /* Changed from "right" to "left" */
+  padding-right: 15px;
+}
+
+.col-md-6 {
+  display: flex;
+  align-items: center;
+}
+
+/* Added styles to align labels and fields properly */
+.col-md-6 input[type="text"],
+.col-md-6 input[type="email"],
+.col-md-6 input[type="password"],
+.col-md-6 input[type="number"],
+.col-md-6 input[type="date"],
+.col-md-6 input[type="file"],
+.col-md-6 textarea,
+.col-md-6 select {
+  width: 100%;
+  padding: 8px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.btn-primary {
+  background-color: #007bff;
+  border-color: #007bff;
+}
+
+.btn-primary:hover {
+  background-color: #0056b3;
+  border-color: #0056b3;
+}
