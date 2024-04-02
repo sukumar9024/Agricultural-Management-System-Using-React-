@@ -9,7 +9,7 @@ function NavBar(){
             <div className="top-menu">
                 <Link to="/" ><li>Home</li></Link>
                 <Link to="/products"><li>Market</li></Link>
-                    <li>Cart</li>
+                <Link to="/cart"><li>Cart</li></Link>
             </div>
         </div>
     </div>

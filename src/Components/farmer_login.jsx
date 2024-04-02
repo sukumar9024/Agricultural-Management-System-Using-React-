@@ -21,7 +21,7 @@ function farmerlogin(){
                 <input type="password" id="password" name="password" placeholder="Password" required/>
             </div>
             <div className="submit">
-                <Link to="/customer"><button type="submit">Login</button></Link>
+                <Link to="/farmer"><button type="submit">Login</button></Link>
             </div>
         </form>
     </div>

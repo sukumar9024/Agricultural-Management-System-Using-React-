@@ -1,6 +1,6 @@
 import React from 'react';
 import "../Styling/customerAddProduct.css";
-
+import {Link} from "react-router-dom";
 function CustomerAddProduct() {
   return (
     <div className="customer-add-product-container">
@@ -73,9 +73,9 @@ function CustomerAddProduct() {
                       <button type="submit" className="btn btn-primary" name="insert_pro">
                         Insert
                       </button>
-                      <button type="button" className="btn btn-primary"style={{background:"red"}}>
+                      <Link to="/customer"><button type="button" className="btn btn-primary"style={{background:"red"}}>
                         Cancel
-                      </button>
+                      </button></Link>
                     </div>
                   </div>
                 </form>

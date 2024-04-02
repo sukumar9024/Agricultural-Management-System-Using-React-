@@ -1,6 +1,7 @@
 import React from "react";
 import "../Styling/customer_login.css";
-import customerBuy from "../assets/customerBuy.jpg"
+import customerBuy from "../assets/customerBuy.jpg";
+import {Link} from "react-router-dom";
 function Customerlogin(){
         return(<div> 
             <div className="heading">
@@ -20,7 +21,7 @@ function Customerlogin(){
                 <input type="password" id="password" name="password" placeholder="Password" required />
             </div>
             <div className="submit">
-                <button type="submit">Login</button>
+                <Link to="/products"> <button type="submit">Login</button></Link>
             </div>
         </form>
     </div>
