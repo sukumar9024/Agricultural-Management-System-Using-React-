@@ -1,0 +1,43 @@
+.container {
+    background-color: white;
+    margin: 50px auto;
+    max-width: 600px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    position: relative; /* Position the container */
+  }
+  
+  .close-button {
+    position: absolute; /* Position the close button */
+    top: 10px; /* Adjust vertical position */
+    right: 10px; /* Adjust horizontal position */
+    font-size: 20px;
+    cursor: pointer;
+    background: none;
+    border: none;
+  }
+  
+  .close-button:hover {
+    color: #ff0000; /* Change color on hover */
+  }
+  
+  h2 {
+    margin-bottom: 20px;
+  }
+  
+  ol {
+    padding-left: 20px;
+  }
+  
+  li {
+    margin-bottom: 15px;
+  }
+  
+  strong {
+    font-weight: bold;
+  }
+  
+  /* Optional: Customize further as needed */
+  

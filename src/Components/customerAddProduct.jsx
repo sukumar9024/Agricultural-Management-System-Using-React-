@@ -73,7 +73,7 @@ function CustomerAddProduct() {
                       <button type="submit" className="btn btn-primary" name="insert_pro">
                         Insert
                       </button>
-                      <Link to="/customer"><button type="button" className="btn btn-primary"style={{background:"red"}}>
+                      <Link to="/farmer"><button type="button" className="btn btn-primary"style={{background:"red"}}>
                         Cancel
                       </button></Link>
                     </div>

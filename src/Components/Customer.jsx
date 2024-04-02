@@ -15,6 +15,7 @@ function Customer() {
                 <div className="top-menu">
                 <Link to="./addProduct" ><button>Add Product</button></Link>
                     <Link to="/"> <button>Logout</button>  </Link>
+                    <Link to="./guide"><button>Support</button></Link>
                 </div>
             </div>
         </div>

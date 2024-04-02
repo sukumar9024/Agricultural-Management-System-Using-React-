@@ -1,0 +1,12 @@
+.noServices {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px; /* Adjust height as needed */
+    background-color: white;
+    border: 1px solid #ccc; /* Add border for white box */
+    border-radius: 5px; /* Add border radius for rounded corners */
+    margin: 20px auto; /* Center the box horizontally */
+    padding: 20px; /* Add padding for content inside the box */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add shadow for depth effect */
+  }

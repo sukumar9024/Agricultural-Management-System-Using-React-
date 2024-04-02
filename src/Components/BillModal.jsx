@@ -16,7 +16,8 @@ function BillModal({ bill }) {
                     ))}
                 </div>
                 <p>Total Cost: Rs.{totalCost}</p>
-                <button onClick={() => console.log("Payment processed successfully!")}>Pay Now</button>
+                {//<button onClick={() => console.log("Payment processed successfully!")}>Pay Now</button>
+                }
             </div>
         </div>
     );

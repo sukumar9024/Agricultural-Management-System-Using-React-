@@ -35,7 +35,8 @@ function CartItem({ item, onRemove, onUpdateQuantity }) {
                     <button className="increment" onClick={handleIncrement} style={{ borderRadius: "5px" }}>+</button>
                 </div>
                 <div className="product-name-display">
-                    <h3>PRICE</h3><p>{item.price * quantity}</p>
+                    <h3>Price</h3><p>{item.price}</p>
+                    <h3>Total</h3><p>{item.price * quantity}</p>
                 </div>
                 <button className="remove-btn" onClick={() => onRemove(item)}>Remove</button>
             </div>
