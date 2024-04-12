@@ -13,6 +13,7 @@ import Customer from "./Components/Customer.jsx";
 import CustomerAddProduct from "./Components/customerAddProduct.jsx";
 import Cart from "./Components/cart.jsx";
 import GuideToFillForm from "./Components/GuideToFillForm.jsx";
+import Payment from "./Components/Payment.jsx";
 
 function App() {
 
@@ -32,7 +33,9 @@ function App() {
         <Route exact path="/farmer/addProduct" element={<CustomerAddProduct/>} />
         <Route exact path="/cart" element={<div><NavBar/><Cart/></div>} />
         <Route exact path="/farmer/guide" element={<GuideToFillForm/>} />
-      </Routes>
+        <Route exact path="/payment" element={<Payment/>} />
+
+        </Routes>
         
       
       </div>

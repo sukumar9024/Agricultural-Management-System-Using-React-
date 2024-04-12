@@ -20,7 +20,7 @@ function Login(){
                 </span></div>
             <div className="customer-para"><p>Are you willing to purchase products from farmers? </p></div>
             <div className="login-line">login/register as  Customer</div>
-            <div className="login_button"><Link to="/Customerlogin" ><button type="button" style={{height:"2em", width:"5em"}}>Login</button></Link></div>
+            <div className="login_button"><Link to="/Customerlogin" ><button type="button" style={{height:"2em", width:"5em"} }>Login</button></Link></div>
             <div className="login_button"><Link to="/Customerregister"><button type="button" style={{height:"2em", width:"5em"}}>Register</button></Link></div>
         </div>
         <div className="farmer">

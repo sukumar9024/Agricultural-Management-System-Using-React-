@@ -30,7 +30,7 @@ function Searcher() {
 
   function handleSubmit() {
     // Check if state is Andhra Pradesh and city is Anantapur
-    if (stateval === 'Andhra Pradesh' && cityval === 'Anantapur') {
+    if (stateval === 'Andhra Pradesh' && cityval === 'Chittoor') {
       setShowProducts(true);
       console.log("success"); // Display the Products component;
     } else {

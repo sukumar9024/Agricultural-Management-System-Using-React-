@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import BillModal from './BillModal'; // Import the bill modal component
 import cartContents from './CartContent';
+import Payment from './Payment';
 import "../Styling/cart.css";
 
 
@@ -45,10 +46,15 @@ function CartItem({ item, onRemove, onUpdateQuantity }) {
 }
 function Cart() {
     const [cartItems, setCartItems] = useState(cartContents);
+    const [totalCost, setTotalCost] = useState(0);
+    const [showPayment, setShowPayment] = useState(false); // State to manage Payment component visibility
 
     useEffect(() => {
         cartContents.splice(0, cartContents.length, ...cartItems);
+        const total = cartItems.reduce((acc, item) => acc + (item.price * item.quantity), 0);
+        setTotalCost(total);
     }, [cartItems]);
+    
 
     const handleRemoveFromCart = (itemToRemove) => {
         const updatedCart = cartItems.filter(item => item !== itemToRemove);
@@ -64,6 +70,10 @@ function Cart() {
             return cartItem;
         });
         setCartItems(updatedItems);
+    };
+    
+    const handleBuyClick = () => {
+        setShowPayment(true); // Display the Payment component when Buy button is clicked
     };
 
     return (
@@ -83,6 +93,14 @@ function Cart() {
                     )}
                 </div>
                 <BillModal bill={cartItems} />
+                <div className='buy1-container'>
+                {showPayment && <Payment totalPrice={totalCost} />} {/* Render Payment component if showPayment is true */}
+                {totalCost > 0 && !showPayment && (
+                    <div className='buy-container'>
+                        <button className='buy-button' onClick={handleBuyClick}>Buy</button>
+                    </div>
+                )}
+                </div>
             </div>
         </div>
     );
