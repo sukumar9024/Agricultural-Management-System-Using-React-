@@ -12,7 +12,7 @@ function FarmerLogin() {
   const navigate = useNavigate(); // Initialize useHistory hook
 
   const handleLogin = () => {
-    if (email && password) {
+    if (email1 && password) {
       // Redirect to /farmer when email and password are filled
       setEmail(email1);
       navigate('/farmer');
